@@ -1,0 +1,15 @@
+name: WbSet
+version: 1.0.0
+main: de.example.wbset.WbSetPlugin
+api-version: '1.21'
+
+commands:
+  wbset:
+    description: Setzt die Worldborder um den Spieler
+    usage: /wbset <Radius>
+    permission: wbset.use
+
+permissions:
+  wbset.use:
+    description: Erlaubt /wbset
+    default: op
